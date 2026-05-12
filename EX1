@@ -1,1 +1,16 @@
+#include<stdio.h>
+int organizar(int num)
 
+int main()
+{
+	int num,qtd,input;
+	int Array[150];
+	printf("Insere quantidade de numeros que deseja preencher:");
+	scanf("%d",&input);
+
+	while(num<=input)
+	{
+		Array[qtd]=num;
+		qtd++;
+		num++;
+	}
